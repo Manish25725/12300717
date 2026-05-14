@@ -2,6 +2,7 @@ import express from "express";
 import logger from "../../logging_middleware/logger.js"
 import scheduleRoutes from "./routes/scheduleRoutes.js";
 
+
 const app = express();
 app.use(express.json());
 app.use(logger);
